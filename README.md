@@ -8,8 +8,8 @@ A non-profit organization specializes in the generation of funds for contributio
 </br>
 </br>
 
-![](data1.png)
-![](data2.png)
+![](images/data1.png)
+![](images/data2.png)
 </br>
 </br>
 
@@ -20,12 +20,11 @@ The Neural Network (NN) models are binary classifiers that are capable of predic
 
 ## Test 1: Removing Noisy Features 
 The goal of optimization is to increment the smallest changes possible to the model until the model has the desired accuracy score. Rather than increase the amount of processing needed or risk overfitting right away, the stimulus is removing a low impact feature. In this case the "Organization" feature was removed.
-![](data2.png)
 </br>
 </br>
 
 ## Results
-![](layer_accuracy.png)
+![](images/layer_accuracy.png)
 </br>
 </br>
 
@@ -33,7 +32,7 @@ The goal of optimization is to increment the smallest changes possible to the mo
 The model is reverted back to the initial test state, this is done by replacing the "Organization" feature removed in test 1. The new stimulus is the addition of another hidden layer, and adjusting each layer to have 16, 8, 4, and 2 units respectively.
 
 ## Results
-![](hiddenlayer.png)
+![](images/hiddenlayer.png)
 </br>
 </br>
 
@@ -41,7 +40,7 @@ The model is reverted back to the initial test state, this is done by replacing 
 The model is used as it exists after the previous test. The new stimulus is the addition of 25 epochs to the model.
 
 ## Results
-![](epochs.png)
+![](images/epochs.png)
 </br>
 </br>
 
@@ -49,7 +48,7 @@ The model is used as it exists after the previous test. The new stimulus is the 
 The model is used as it exists after the previous test. The new stimulus is the addition of the "Name" column, the addition of a hidden layer, changing layer units to 64, 32, 16, and 8 respectively, and finally the addition of 25 epochs to the model (150 total).
 
 ## Results
-![](final.png)
+![](images/final.png)
 </br>
 </br>
 
