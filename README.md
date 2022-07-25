@@ -8,8 +8,8 @@ A non-profit organization specializes in the generation of funds for contributio
 </br>
 </br>
 
-![1](./images/data1.png)
-![2](./images/data2.png)
+![1](./Images/data1.png)
+![2](./Images/data2.png)
 </br>
 </br>
 
@@ -24,7 +24,7 @@ The goal of optimization is to increment the smallest changes possible to the mo
 </br>
 
 ## Results
-![3](./images/layer_accuracy.png)
+![3](./Images/layer_accuracy.png)
 </br>
 </br>
 
@@ -32,7 +32,7 @@ The goal of optimization is to increment the smallest changes possible to the mo
 The model is reverted back to the initial test state, this is done by replacing the "Organization" feature removed in test 1. The new stimulus is the addition of another hidden layer, and adjusting each layer to have 16, 8, 4, and 2 units respectively.
 
 ## Results
-![4](./images/hiddenlayer.png)
+![4](./Images/hiddenlayer.png)
 </br>
 </br>
 
@@ -40,7 +40,7 @@ The model is reverted back to the initial test state, this is done by replacing 
 The model is used as it exists after the previous test. The new stimulus is the addition of 25 epochs to the model.
 
 ## Results
-![5](./images/epochs.png)
+![5](./Images/epochs.png)
 </br>
 </br>
 
@@ -48,7 +48,7 @@ The model is used as it exists after the previous test. The new stimulus is the 
 The model is used as it exists after the previous test. The new stimulus is the addition of the "Name" column, the addition of a hidden layer, changing layer units to 64, 32, 16, and 8 respectively, and finally the addition of 25 epochs to the model (150 total).
 
 ## Results
-![6](./images/final.png)
+![6](./Images/final.png)
 </br>
 </br>
 
