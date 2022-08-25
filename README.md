@@ -13,7 +13,7 @@ A non-profit organization specializes in the generation of funds for contributio
 </br>
 </br>
 
-The Neural Network (NN) models are binary classifiers that are capable of predicting whether applicants will be successful if funded. The model will use part of the data to learn trends, and will use the other part of the data to compare its predictions and test the accuracy of its predictions. 
+The Neural Network (NN hencefourth) models implemented in this study are binary classifiers that return values signifying a positive prediction of success. The model will split the dataset and use part of the data to learn trends and feature correlations. The data not used in the learning stage is used to make predictions predictions of success using the learned trends from the learning dataset. The accuracy of the NN predictions . 
 
 
 ## Beginning: Initial ML model results
